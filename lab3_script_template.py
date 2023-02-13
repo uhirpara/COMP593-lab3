@@ -98,22 +98,8 @@ def process_sales_data(sales_csv, orders_dir):
         worksheet.set_column('H:H',10)
         worksheet.set_column('I:I',30)
         
-    
 
-
-        
-
-        writer.close()
-
-
-        
-        
-        
-        
-
-        
-
-        
+        writer.close()        
 
 if __name__ == '__main__':
     main()
